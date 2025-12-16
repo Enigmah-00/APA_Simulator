@@ -7,20 +7,65 @@ public class EndlessLevelHandler : MonoBehaviour
     [SerializeField]
     GameObject[] SectionsPrefabs;
 
-    GameObject[] sectionsPool = new GameObject[20];
-
-    GameObject[] sections = new GameObject[10];
-
+    [Header("Player")]
+    [SerializeField]
     Transform playerCarTransform;
 
-    WaitForSeconds waitFor100ms = new WaitForSeconds(0.1f);
+    [Header("Generation")]
+    [SerializeField]
+    int poolSize = 20;
 
-    const float sectionLength = 26;
+    [SerializeField]
+    int activeSectionsCount = 10;
+
+    [SerializeField]
+    float sectionLength = 26f;
+
+    GameObject[] sectionsPool;
+
+    GameObject[] sections;
+
+    WaitForSeconds waitFor100ms;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        playerCarTransform = GameObject.FindGameObjectWithTag("Player").transform;
+        if (playerCarTransform == null)
+        {
+            GameObject player = GameObject.FindGameObjectWithTag("Player");
+            if (player != null)
+                playerCarTransform = player.transform;
+        }
+
+        if (playerCarTransform == null)
+        {
+            CarHandler car = FindFirstObjectByType<CarHandler>();
+            if (car != null)
+                playerCarTransform = car.transform;
+        }
+
+        if (playerCarTransform == null)
+        {
+            Debug.LogError("EndlessLevelHandler: No player transform found. Assign Player Car Transform or tag your car as 'Player'.");
+            enabled = false;
+            return;
+        }
+
+        if (SectionsPrefabs == null || SectionsPrefabs.Length == 0)
+        {
+            Debug.LogError("EndlessLevelHandler: No section prefabs assigned.");
+            enabled = false;
+            return;
+        }
+
+        poolSize = Mathf.Max(1, poolSize);
+        activeSectionsCount = Mathf.Clamp(activeSectionsCount, 1, poolSize);
+        sectionLength = Mathf.Max(0.1f, sectionLength);
+
+        sectionsPool = new GameObject[poolSize];
+        sections = new GameObject[activeSectionsCount];
+        waitFor100ms = new WaitForSeconds(0.1f);
+
         int prefabIndex = 0;
         for(int i = 0; i < sectionsPool.Length; i++)
         {
@@ -38,7 +83,7 @@ public class EndlessLevelHandler : MonoBehaviour
         for(int i = 0; i < sections.Length ; i++)
         {
             GameObject randomSection = GetRandomSectionFromPool();
-            randomSection.transform.position = new Vector3(sectionsPool[i].transform.position.x,0,i * sectionLength);
+            randomSection.transform.position = new Vector3(0f, 0f, i * sectionLength);
             randomSection.SetActive(true);
 
             sections[i] = randomSection;
@@ -66,16 +111,10 @@ public class EndlessLevelHandler : MonoBehaviour
 
                 sections[i] = GetRandomSectionFromPool();
 
-                sections[i].transform.position = new Vector3(lastSectionPositions.x,0,lastSectionPositions.z + sectionLength*sections.Length);
+                sections[i].transform.position = new Vector3(0f, 0f, lastSectionPositions.z + sectionLength*sections.Length);
                 sections[i].SetActive(true);
             }
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     GameObject GetRandomSectionFromPool()
