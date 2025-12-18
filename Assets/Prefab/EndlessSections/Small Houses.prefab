@@ -437,6 +437,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Trees_Close PF (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 2150944771554564722, guid: f644a675fcfd2411aac55ee7694a8ef3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -565,6 +569,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building_D_withoutBase
       objectReference: {fileID: 0}
+    - target: {fileID: 6488729215388391506, guid: 3aa8b9942c8284d6a83d7a2a0652504a, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -626,6 +634,10 @@ PrefabInstance:
     - target: {fileID: 2150944771554564722, guid: f644a675fcfd2411aac55ee7694a8ef3, type: 3}
       propertyPath: m_Name
       value: Trees_Close PF (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150944771554564722, guid: f644a675fcfd2411aac55ee7694a8ef3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -689,6 +701,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Trees_Close PF
       objectReference: {fileID: 0}
+    - target: {fileID: 2150944771554564722, guid: f644a675fcfd2411aac55ee7694a8ef3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -750,6 +766,10 @@ PrefabInstance:
     - target: {fileID: 2150944771554564722, guid: f644a675fcfd2411aac55ee7694a8ef3, type: 3}
       propertyPath: m_Name
       value: Trees_Close PF (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150944771554564722, guid: f644a675fcfd2411aac55ee7694a8ef3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -879,6 +899,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Trees_Close PF (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 2150944771554564722, guid: f644a675fcfd2411aac55ee7694a8ef3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -904,6 +928,10 @@ PrefabInstance:
     - target: {fileID: 2523613542175734018, guid: 659e7d835a49640308123d9aeba26efe, type: 3}
       propertyPath: m_Name
       value: building_A PF (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2523613542175734018, guid: 659e7d835a49640308123d9aeba26efe, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 2904396840303567800, guid: 659e7d835a49640308123d9aeba26efe, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1007,6 +1035,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Trees_Close PF (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2150944771554564722, guid: f644a675fcfd2411aac55ee7694a8ef3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1068,6 +1100,10 @@ PrefabInstance:
     - target: {fileID: 761194288549861884, guid: 2bc015194492247dfa16fcddb96719e1, type: 3}
       propertyPath: m_Name
       value: Tree_Far PF (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 761194288549861884, guid: 2bc015194492247dfa16fcddb96719e1, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1160,6 +1196,10 @@ PrefabInstance:
     - target: {fileID: 2523613542175734018, guid: 659e7d835a49640308123d9aeba26efe, type: 3}
       propertyPath: m_Name
       value: building_A PF (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2523613542175734018, guid: 659e7d835a49640308123d9aeba26efe, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 2904396840303567800, guid: 659e7d835a49640308123d9aeba26efe, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1293,6 +1333,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building_A PF (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 2523613542175734018, guid: 659e7d835a49640308123d9aeba26efe, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 2904396840303567800, guid: 659e7d835a49640308123d9aeba26efe, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2
@@ -1395,6 +1439,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree_Far PF (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 761194288549861884, guid: 2bc015194492247dfa16fcddb96719e1, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1420,6 +1468,10 @@ PrefabInstance:
     - target: {fileID: 2523613542175734018, guid: 659e7d835a49640308123d9aeba26efe, type: 3}
       propertyPath: m_Name
       value: building_A PF (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2523613542175734018, guid: 659e7d835a49640308123d9aeba26efe, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 2904396840303567800, guid: 659e7d835a49640308123d9aeba26efe, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1523,6 +1575,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building_D_withoutBase (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6488729215388391506, guid: 3aa8b9942c8284d6a83d7a2a0652504a, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1585,6 +1641,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree_Far PF (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 761194288549861884, guid: 2bc015194492247dfa16fcddb96719e1, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1646,6 +1706,10 @@ PrefabInstance:
     - target: {fileID: 2150944771554564722, guid: f644a675fcfd2411aac55ee7694a8ef3, type: 3}
       propertyPath: m_Name
       value: Trees_Close PF (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150944771554564722, guid: f644a675fcfd2411aac55ee7694a8ef3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1775,6 +1839,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Trees_Close PF (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2150944771554564722, guid: f644a675fcfd2411aac55ee7694a8ef3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1902,6 +1970,10 @@ PrefabInstance:
     - target: {fileID: 6488729215388391506, guid: 3aa8b9942c8284d6a83d7a2a0652504a, type: 3}
       propertyPath: m_Name
       value: building_D_withoutBase (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6488729215388391506, guid: 3aa8b9942c8284d6a83d7a2a0652504a, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2097,6 +2169,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Trees_Close PF (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 2150944771554564722, guid: f644a675fcfd2411aac55ee7694a8ef3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2225,6 +2301,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Trees_Close PF (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 2150944771554564722, guid: f644a675fcfd2411aac55ee7694a8ef3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2286,6 +2366,10 @@ PrefabInstance:
     - target: {fileID: 6488729215388391506, guid: 3aa8b9942c8284d6a83d7a2a0652504a, type: 3}
       propertyPath: m_Name
       value: building_D_withoutBase (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6488729215388391506, guid: 3aa8b9942c8284d6a83d7a2a0652504a, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2349,6 +2433,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Trees_Close PF (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 2150944771554564722, guid: f644a675fcfd2411aac55ee7694a8ef3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2410,6 +2498,10 @@ PrefabInstance:
     - target: {fileID: 761194288549861884, guid: 2bc015194492247dfa16fcddb96719e1, type: 3}
       propertyPath: m_Name
       value: Tree_Far PF
+      objectReference: {fileID: 0}
+    - target: {fileID: 761194288549861884, guid: 2bc015194492247dfa16fcddb96719e1, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2503,6 +2595,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building_A PF (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2523613542175734018, guid: 659e7d835a49640308123d9aeba26efe, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 2904396840303567800, guid: 659e7d835a49640308123d9aeba26efe, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2
@@ -2568,6 +2664,10 @@ PrefabInstance:
     - target: {fileID: 2523613542175734018, guid: 659e7d835a49640308123d9aeba26efe, type: 3}
       propertyPath: m_Name
       value: building_A PF
+      objectReference: {fileID: 0}
+    - target: {fileID: 2523613542175734018, guid: 659e7d835a49640308123d9aeba26efe, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 2904396840303567800, guid: 659e7d835a49640308123d9aeba26efe, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2670,6 +2770,10 @@ PrefabInstance:
     - target: {fileID: 2150944771554564722, guid: f644a675fcfd2411aac55ee7694a8ef3, type: 3}
       propertyPath: m_Name
       value: Trees_Close PF (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150944771554564722, guid: f644a675fcfd2411aac55ee7694a8ef3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2799,6 +2903,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Trees_Close PF (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 2150944771554564722, guid: f644a675fcfd2411aac55ee7694a8ef3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2861,6 +2969,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Trees_Close PF (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 2150944771554564722, guid: f644a675fcfd2411aac55ee7694a8ef3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2922,6 +3034,10 @@ PrefabInstance:
     - target: {fileID: 761194288549861884, guid: 2bc015194492247dfa16fcddb96719e1, type: 3}
       propertyPath: m_Name
       value: Tree_Far PF (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 761194288549861884, guid: 2bc015194492247dfa16fcddb96719e1, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3051,6 +3167,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Trees_Close PF (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 2150944771554564722, guid: f644a675fcfd2411aac55ee7694a8ef3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3142,6 +3262,10 @@ PrefabInstance:
     - target: {fileID: 2523613542175734018, guid: 659e7d835a49640308123d9aeba26efe, type: 3}
       propertyPath: m_Name
       value: building_A PF (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2523613542175734018, guid: 659e7d835a49640308123d9aeba26efe, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 2904396840303567800, guid: 659e7d835a49640308123d9aeba26efe, type: 3}
       propertyPath: m_LocalPosition.x

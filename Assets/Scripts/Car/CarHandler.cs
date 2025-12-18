@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class CarHandler : MonoBehaviour
@@ -150,6 +151,20 @@ public class CarHandler : MonoBehaviour
         inputVector.Normalize();
         input = inputVector;
     }
+
+    IEnumerator SlowDownTimeCO(){
+        while (Time.timeScale > 0.2f){
+            Time.timeScale -= Time.deltaTime* 2;
+            yield return null; 
+        }
+        yield return new WaitForSeconds(0.5f);
+
+        while(Time.timeScale <= 1.0f){
+            Time.timeScale += Time.deltaTime;
+            yield return null;
+        }
+        Time.timeScale = 1.0f;
+    }
     private void OnCollisionEnter(Collision collision)
     {
         if (isExploded) return;
@@ -161,6 +176,7 @@ public class CarHandler : MonoBehaviour
             Vector3 velocity = rb.linearVelocity;
             explodeHandler.Explode(velocity * 45);
             isExploded = true;
+            StartCoroutine(SlowDownTimeCO());
         }
     }
 }
