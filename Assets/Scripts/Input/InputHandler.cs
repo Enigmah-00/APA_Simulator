@@ -34,6 +34,10 @@ public class InputHandler : MonoBehaviour
         // New Input System restart fallback (works even without a Restart action wired)
         if (Keyboard.current != null && Keyboard.current.rKey.wasPressedThisFrame)
             RestartScene();
+        
+        // Horn on H key press
+        if (Keyboard.current != null && Keyboard.current.hKey.wasPressedThisFrame && carHandler != null)
+            carHandler.PlayHorn();
     }
 
     public void OnMove(InputValue value)
@@ -58,6 +62,7 @@ public class InputHandler : MonoBehaviour
 
     void RestartScene()
     {
+        Time.timeScale = 1.0f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
